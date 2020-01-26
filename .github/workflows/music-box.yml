@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: jacc/music-box@master
+      - uses: ven/music-box@master
         env:
           LASTFM_KEY: ${{ secrets.LASTFM_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_KEY }}
