@@ -9,7 +9,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Update
-       uses: jacc/music-box@master
+       uses: venoras/music-box@master
        env:
           LASTFM_KEY: ${{ secrets.LASTFM_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEEN }}
